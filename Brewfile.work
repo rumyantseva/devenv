@@ -1,0 +1,56 @@
+# brew bundle --file ./Brewfile.work
+
+# Brew
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+brew "mas"
+
+# Terminal and crucial cli tools
+cask "iterm2"
+brew "fish"
+brew "telnet"
+brew "tmux"
+brew "gh"
+brew "git"
+brew "git-flow"
+brew "git-lfs"
+brew "pre-commit"
+brew "jq"
+brew "htop"
+brew "unzip"
+
+# UI tools
+cask "google-chrome"
+cask "1password"
+cask "timeular"
+cask "zoom"
+cask "spotify"
+cask "grammarly"
+cask "loom"
+cask "tailscale"
+cask "slack"
+
+# IDEs
+cask "goland"
+cask "insomnia"
+cask "visual-studio-code"
+
+# Go
+brew "go"
+brew "golangci-lint"
+brew "protobuf"
+brew "go-task/tap/go-task"
+brew "grpcurl"
+brew "hugo"
+
+# Docker & Kubernetes
+cask "docker"
+brew "kubectl"
+brew "minikube"
+brew "operator-sdk"
+cask "lens"
+
+# DBs
+brew "mongosh"

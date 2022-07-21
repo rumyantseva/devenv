@@ -1,0 +1,4 @@
+# brew bundle --file ./Brewfile.home
+
+# UI
+cask "vlc"
